@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Données Covid</title>
+</head>
+<body>
+
+    <header class="header"> 
+
+        <div class="container">
+
+            <h1>Données sur l’évolution du Covid-19 au Sénégal</h1>
+        </div>
+    </header>
+
+    <img src="corona4.png"  alt="" class="image1">
+
+    <section id="section1">
+       
+        <h6>Date 28/11/2021</h6>
+        <h1>Avant-Propos</h1>
+        <p>L’année 2020 a été marquée par l’arrivée de la crise sanitaire du Covid-19,
+             d’ampleur mondiale qui a entrainée d’énormes difficultés sur tous les plans.<br>
+
+              Afin d’avoir une vue d’ensemble sur l’évolution de la pandémie,
+               j’ai rassemblées des données du Covid-19 au Sénégal allant de la période de Janvier 2020 à novembre 2021. 
+            Les données qui seront présentées proviennent du SESRIC (Centre de Recherches Statistiques,
+             Economiques et Sociales et de la Formation pour les Pays Islamiques). <br>
+            Grâces à ces données pour aller pouvoir observer les graphiques de l’évolution du nombre de contaminés,
+             du nombre de cas de décès et de personnes ayant reçue au moins une dose de vaccins. 
+             Vous pourrez également observer le taux de létalité et de couverture vaccinale.
+            </p>
+
+    </section>
+
+    <section id="section2">
+        <h1>Grahiques du nombres de cas contamination du Covid en 2020 et en  2021 </h1>
+
+        <div class="container">
+
+
+            <div class="cas2020">
+                <canvas id="myChart"></canvas>
+            </div>
+
+            
+            <div class="cas2021">
+                <canvas id="myChart2"></canvas>
+            </div>
+        </div>
+
+
+        <div class="analyse-cas">
+            <p>En 2020, le pic du nombre de contaminés est atteint en juillet avec 3439 cas. 
+                En 2021, le pic est atteint en Juillet avec 19162 cas.
+                 D'une manière globale, on est passe de 19140 cas en 2020 à plus de 54000 cas en 2021, 
+                 soit une augmentation de plus de 186,55%.</p>
+        </div>
+
+       
+
+    </section>
+
+
+
+    <section id="section3">
+        <h1>Grahiques du nombres de cas de décès de Covid en 2020 et en  2021 </h1>
+
+        <div class="container">
+
+
+            <div class="deces2020">
+                <canvas id="myChart3"></canvas>
+            </div>
+
+            
+            <div class="deces2021">
+                <canvas id="myChart4"></canvas>
+            </div>
+
+        </div>
+
+        <div class="analyse-deces">
+            <p>Concernant le nombre de décès on constate une augmentation de 2020 à 2021.
+                 En effet, on est passé de 537 décès en 2020 à 1468 en 2021 du à l'augmentation des cas de contaminations.
+                  Cela représente une augmentation de plus de 173,37%.
+                   Par contre on constate que le taux de létalité a sensiblement baisse 
+                   malgré l'augmentation des cas de contaminations passant de 2,81% en 2020 à 2,68% en 2021.
+                    Cela traduit l'amélioration des mesures de sécurités.</p>
+        </div>
+
+
+    </section>
+
+    <br> <br>   <br> <br>   <br> <br>
+
+    <div class="entete-vaccin">
+        <h1>Evolution du nombre de vaccination en 2021</h1>
+
+    </div>
+
+    <img src="vaccin4.png"  alt="" class="image2">
+
+    
+
+
+    <section id="section4">
+
+
+        <h2>Graphique du nombre de vaccinations de février à novembre 2021 </h2>
+
+        <div class="vaccin2021">
+
+            <canvas id="myChart5"></canvas>
+
+        </div>
+
+
+        <p>Deux vaccins ont été introduits au Sénégal,
+             Celui d’ATRA Zeneca et celui de Sinopharm.
+             A ce jour 1271021 personnes ont étés vaccinées, ce qui représente 7,61% de la population.</p>
+
+    </section>
+
+
+
+   <section id="section5">
+
+    <p>Au total 73 985 personnes ont été contaminées depuis le début de la pandémie. On dénombre près de 2005 décès.  
+        Malgré une augmentation des cas de contaminations en 2021, le taux de létalité a sensiblement baissé.
+         Cela traduit une amélioration de la qualité des soins et des mesures de sécurité.
+        </p>
+
+
+
+   </section>
+
+
+
+   <footer id="footer">
+
+    <p> Les données proviennent du site du  <a href="https://www.sesric.org/sesric_covid_19-fr.php" target="-blank">SESRIC</a></p>
+
+
+   </footer>
+
+
+   
+
+    
+    
+
+
+ 
+
+   
+ 
+
+
+
+  
+
+   
+
+   
+
+        
+
+        <script src="script.js"></script>
+   
+
+      
+    
+</body>
+</html>

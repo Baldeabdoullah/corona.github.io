@@ -1,0 +1,427 @@
+body {
+  margin: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+.header {
+  background-color: #f39c12;
+  height: 70px;
+  animation: heading;
+  animation-duration: 3s;
+}
+
+@keyframes heading {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.container h1 {
+  text-align: center;
+  color: honeydew;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  margin: auto;
+  padding-bottom: 10px;
+  font-size: 33px;
+}
+
+.image1 {
+  position: relative;
+  min-width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  animation: image;
+  animation-delay: 0s;
+  animation-duration: 4s;
+}
+
+@keyframes image {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#section1 {
+  width: 100%;
+  background-color: #fff;
+
+  margin: 10px;
+}
+
+#section1 h6 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#section1 h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  animation: h1;
+  animation-duration: 5s;
+  animation-delay: 0s;
+}
+@keyframes h1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#section1 p {
+  width: 85%;
+  text-align: justify;
+  padding-left: 110px;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 22px;
+  padding-bottom: 100px;
+  animation: p;
+  animation-duration: 6s;
+  animation-delay: 0s;
+}
+
+@keyframes p {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#section2 {
+  width: 90%;
+  margin: 20px;
+  animation: section2;
+  animation-duration: 7s;
+  animation-delay: 0s;
+}
+
+@keyframes section2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#section2 h1 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 20px;
+}
+
+.cas2020 {
+  float: left;
+  width: 50%;
+}
+
+#myChart {
+  animation: mychart;
+  animation-duration: 5s;
+  animation-delay: 0s;
+}
+
+@keyframes mychart {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+.cas2021 {
+  float: right;
+  width: 50%;
+}
+
+#myChart1 {
+  animation: mychart1;
+  animation-duration: 5s;
+  animation-delay: 0s;
+}
+
+@keyframes mychart1 {
+  0% {
+    right: -1000px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+.analyse-cas {
+  width: 80%;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify, center;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  background-color: #333;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+#section3 {
+  width: 90%;
+  margin: 20px;
+  animation: section2;
+  animation-duration: 8s;
+  animation-delay: 0s;
+}
+
+@keyframes section3 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#section3 h1 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 20px;
+}
+
+.deces2020 {
+  float: left;
+  width: 50%;
+}
+
+.deces2021 {
+  float: right;
+  width: 50%;
+}
+
+.analyse-deces {
+  width: 80%;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify, center;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  background-color: #333;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.entete-vaccin {
+  width: 90%;
+  animation: entete-vaccin;
+  animation-duration: 9s;
+  animation-delay: 0s;
+}
+
+@keyframes entete-vaccin {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.entete-vaccin h1 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: 40px;
+  color: #fff;
+  background-color: #1e272e;
+  font-weight: bold;
+}
+
+.image2 {
+  position: relative;
+  min-width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  animation: image2;
+  animation-duration: 9s;
+  animation-delay: 0s;
+}
+
+@keyframes image2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#section4 {
+  margin: 10px;
+  width: 90%;
+  animation: section4;
+  animation-duration: 9s;
+  animation-delay: 0s;
+}
+
+@keyframes section4 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#section4 h2 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+.vaccin2021 {
+  width: 100%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section4 p {
+  text-align: center;
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 70%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+#section5 {
+  margin: 10px;
+  width: 90%;
+  animation: section5;
+  animation-duration: 10s;
+  animation-delay: 0s;
+}
+
+@keyframes section5 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#section5 p {
+  text-align: center;
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 80%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+#footer {
+  width: 100%;
+  margin-top: 100px;
+  background-color: #333;
+  height: 40px;
+  animation: footer;
+  animation-duration: 11s;
+  animation-delay: 0s;
+}
+
+@keyframes footer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#footer p {
+  text-align: center;
+  color: #fff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+}
+
+#footer p a {
+  color: #22a6b3;
+}
+
+#footer p a:hover {
+  color: #eb4d4b;
+}
+
+@media (max-width: 900px) {
+  #section2 {
+    width: 100%;
+  }
+
+  #section3 {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .deces2020 {
+    width: 100%;
+    float: none;
+  }
+
+  .deces2021 {
+    width: 100%;
+    float: none;
+  }
+
+  .cas2020 {
+    float: none;
+    width: 100%;
+  }
+
+  .cas2021 {
+    float: none;
+    width: 100%;
+  }
+
+  #section1 p {
+    width: 100%;
+    margin-left: -50px;
+  }
+  #section4 {
+    width: 98%;
+  }
+
+  #section4 p {
+    width: 95%;
+  }
+
+  #section5 p {
+    width: 95%;
+  }
+}
